@@ -392,15 +392,15 @@ color:#ddd;
 }
 
 .third #heading{
-  height: 320px;
-  margin-top: 25px;
+  height: 280px;
+ margin-top: 25px;
     background:linear-gradient(to right,#bfe4c8,#f4a5a5);
 }
 
 .third h1{
    
   text-align: center;
-  margin-top: 20px;
+  margin-top: 155px;
   color: #333;
   margin-left: -150rem;
   font-size: 58px;
@@ -410,7 +410,7 @@ color:#ddd;
 #heading p{
    
   text-align: center;
-  margin-top: 17px;
+  margin-top: 27px;
   font-size: 21px;
    margin-right: -159rem; 
   color: white;
@@ -418,7 +418,7 @@ color:#ddd;
 }
 
 .third h3{
-   
+   margin-top: 20px;
   text-align: center;
   font-size: 27px;
   color: rgb(26, 133, 26);
