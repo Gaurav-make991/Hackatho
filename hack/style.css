@@ -104,10 +104,10 @@ background:linear-gradient(to right,#3df5a56e,#f9d2d5d6);
   position: absolute;
   width: 100%;
   height: 100%;
-   
   top: 0;
   left: 0;
   z-index: 0;
+  pointer-events: none; /* <--- NEW LINE: Lets clicks pass through the invisible overlay */
 }
 
 .bg-video {
@@ -155,6 +155,8 @@ background:linear-gradient(to right,#3df5a56e,#f9d2d5d6);
 /* Buttons */
 .buttons {
   margin-top: 25px;
+  position: relative; 
+  z-index: 10;        /
 }
 
 .primary {
