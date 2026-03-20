@@ -19,3 +19,7 @@ LoginLink.addEventListener('click', () => {
 document.getElementById("google-login").addEventListener("click", () => {
   window.location.href = "/auth/google"; // direct backend route
 });
+
+//login with google
+
+
